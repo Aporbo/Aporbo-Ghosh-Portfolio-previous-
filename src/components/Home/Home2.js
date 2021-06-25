@@ -14,7 +14,7 @@ function Home2() {
             {/* <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1> */}
-            <p className="home-about-body">
+            <p style={{paddingTop:50}} className="home-about-body">
             I'm ENTHUSIASTIC about learning, keeping up to date, and improving myself along with my career. I do my tasks with the utmost care and sheer determination to give the best possible output within the given time. 🤷‍♂️
               <br />
               <br />I am fluent in classics like
