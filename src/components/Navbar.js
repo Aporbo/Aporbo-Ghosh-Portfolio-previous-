@@ -25,7 +25,7 @@ function NavBar() {
   return (
     <Navbar
       expanded={expand}
-      fixed="top"
+      fixed="left"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
