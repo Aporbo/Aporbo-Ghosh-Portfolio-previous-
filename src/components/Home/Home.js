@@ -4,7 +4,7 @@ import "../../style.css";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particle from "../Particle";
-import homeImage from "../../Assets/profile.png"
+import homeImage from "../../Assets/profile2 (2).png"
 import Home2 from "./Home2";
 import Type from "./Type";
 import pdf from "../../Assets/Aporbo's_Resume.pdf"
@@ -28,19 +28,22 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-                <Button  variant="info" href={pdf} target="_blank">
-            <i className="fas fa-download">&nbsp;</i>Download CV
-          </Button>
+                
               </div>
               
             </Col>
            
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 20 },{paddingTop:30}}>
               <img src={homeImage} alt="home pic" className="img-fluid" />
             </Col>
+            
           </Row>
+          
         </Container>
       </Container>
+      <Button  variant="info" href={pdf} target="_blank">
+            <i className="fas fa-download">&nbsp;</i>Download CV
+          </Button>
       <Home2 />
     </section>
   );
