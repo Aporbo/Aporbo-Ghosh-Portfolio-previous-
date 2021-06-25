@@ -15,8 +15,8 @@ import hungry from "../../Assets/Projects/hungry.png";
 import sports from "../../Assets/Projects/sportsss.png";
 import team from "../../Assets/Projects/team.png";
 
-import algo from "../../Assets/comming.jpg";
-import plant from "../../Assets/Projects/plant.jpeg";
+import blog1 from "../../Assets/Blogs/blog1.png";
+import blog2 from "../../Assets/Blogs/blog2.png";
 
 function Projects() {
   return (
@@ -128,10 +128,20 @@ function Projects() {
         <Row style={{ justifyContent: "center" }}>
           <Col md={6} className="blog-card">
             <BlogCard
-              imgPath={algo}
-              link=""
-              title="Coming soon"
-              site="https://medium.com/@aporbogosh249"
+              imgPath={blog1}
+              link="https://aporbogosh249.medium.com/basics-of-javascript-adf6e6e13af"
+              title="Basics of JavaScript"
+              // site=""
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center" }}>
+          <Col md={6} className="blog-card">
+            <BlogCard
+              imgPath={blog2}
+              link="https://aporbogosh249.medium.com/javascript-interview-solution-5cbf45a03618"
+              title="Javascript interview solution"
+              // site=""
             />
           </Col>
         </Row>
