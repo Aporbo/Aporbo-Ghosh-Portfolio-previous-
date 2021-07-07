@@ -1,5 +1,5 @@
 <h2 align="center">
-  [Portfolio Website](https://aporbo-portfolio.web.app/)<br/>
+  Portfolio Website<br/>
   <a href="https://www.linkedin.com/in/aporbo-ghosh-7753541a6/" target="_blank"Aporbo Ghosh</a>
 </h2>
 <div align="center">
@@ -7,7 +7,7 @@
 </div>
 
 <br/>
-
+### [visit](https://aporbo-portfolio.web.app/)
 <center>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
