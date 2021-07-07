@@ -18,7 +18,6 @@
 
 ## Built With
 
-
 This portfolio was built using these technologies.
 
 - React.js
