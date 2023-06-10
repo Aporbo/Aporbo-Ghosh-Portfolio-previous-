@@ -4,7 +4,7 @@ import "../../style.css";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particle from "../Particle";
-import homeImage from "../../Assets/profile2 (2).png"
+import homeImage from "../../Assets/Aporbo (2).png"
 import Home2 from "./Home2";
 import Type from "./Type";
 import pdf from "../../Assets/Aporbo's_Resume.pdf"
